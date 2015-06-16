@@ -57,7 +57,7 @@
         android:textStyle="bold"
         android:layout_marginTop="10px" />
     <TextView
-        android:text="Er is altijd 1 iemand die de boodschappen doet, log nu in met heel de familie en maak samen een boodschappen lijstje aan! Is de tandpasta op, voeg het toe en iedereen ziet het!"
+        android:text="Er is altijd 1 iemand die de boodschappenn doet, log nu in met heel de familie en maak samen een boodschappen lijstje aan! Is de tandpasta op, voeg het toe en iedereen ziet het!"
         android:textSize="20dp"
         android:textColor="@android:color/background_dark"
         android:layout_width="match_parent"
