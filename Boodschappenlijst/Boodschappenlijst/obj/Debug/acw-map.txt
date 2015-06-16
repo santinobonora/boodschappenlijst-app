@@ -1,0 +1,4 @@
+Boodschappenlijst.MainActivity, Boodschappenlijst;md525a3c3b14c0a5ac37deecf5f1a16f69d.MainActivity
+Boodschappenlijst.MainActivity, Boodschappenlijst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md525a3c3b14c0a5ac37deecf5f1a16f69d.MainActivity
+Boodschappenlijst.MainActivity;md525a3c3b14c0a5ac37deecf5f1a16f69d.MainActivity
+boodschappenlijst.MainActivity;md525a3c3b14c0a5ac37deecf5f1a16f69d.MainActivity
