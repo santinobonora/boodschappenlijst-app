@@ -61,6 +61,11 @@
     <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btnSignIn.xml" />
+    <AndroidResource Include="Resources\drawable-mdpi\btnSignIn.xml" />
+    <AndroidResource Include="Resources\drawable-xhdpi\btnSignIn.xml" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\btnSignIn.xml" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\btnSignIn.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>
