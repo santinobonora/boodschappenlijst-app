@@ -25,7 +25,7 @@ namespace Boodschappenlijst
 {			
 	public class DatabaseHandler
 	{
-		private SqlConnection con;
+		public SqlConnection con;
 
 		public DatabaseHandler()
 		{
@@ -34,24 +34,7 @@ namespace Boodschappenlijst
 
 		public void TestConnection()
 		{
-			bool open = false;
-
-			try
-			{
-				con.Open();
-			}
-			catch (Exception ex)
-			{
-				
-			}
-			finally
-			{
-				if (con.State == System.Data.ConnectionState.Open)
-				{
-					open = true;
-				}
-				con.Close();
-			}
+			con.Open ();
 		}
 
 		public void TestInsert()
