@@ -16,7 +16,6 @@ namespace Boodschappenlijst
 	public class MainActivity : Activity
 	{
 		protected AlertDialog.Builder alert;
-		protected DatabaseHandler dbh;
 
 		protected override void OnCreate (Bundle bundle)
 		{
@@ -31,16 +30,9 @@ namespace Boodschappenlijst
 			Button btnLogin = FindViewById<Button> (Resource.Id.btnLogIn);
 
 			btnRegister.Click += (object sender, EventArgs e) => {
-				dbh = new DatabaseHandler();
-				//dbh.TestInsert();
-				dbh.TestConnection();
-
-				if (dbh.con.State == System.Data.ConnectionState.Open) {
-					alert = new AlertDialog.Builder(this);
-					alert.SetMessage("Je hebt op de registreer knop gedrukt!");
-					alert.Show();
-				}
-
+				alert = new AlertDialog.Builder(this);
+				alert.SetMessage("Je hebt op de registreer knop gedrukt!");
+				alert.Show();
 			};
 
 			btnLogin.Click += (object sender, EventArgs e) => {
